@@ -6,15 +6,85 @@
 
 header {
     position: relative;
-    height: 175px;
+    height: 100px;
     background-image: url("../img/pattern.png");
     background-color: rgb(61, 145, 255);
     background-position: 55% 20%;
-    padding: 5px;
+    padding: 10px;
 }
 
 header > img { 
     position: absolute;
     bottom: 0;
     height: 50%;
+}
+
+main {
+    padding: 10px;
+}
+
+section#title {
+    padding-top: 10px;
+}
+
+section#title h1 {
+    font-size: 36px;
+}
+
+section#title h3, section#title h4 {
+    color: gray;
+}
+
+.primary-color {
+    color: rgb(61, 145, 255);
+}
+
+section#images {
+    margin-top: 20px;
+}
+
+section#images img {
+    height: 600px;
+}
+
+section#images p {
+    font-size: 10px;
+}
+
+section#description {
+    margin-top: 20px;
+}
+
+section#description p, section#description ul, section#description table {
+    margin-top: 20px;
+}
+
+section#description p span {
+    background-color: yellow;
+}
+
+section#description ul {
+    margin: 20px;
+}
+
+section#description table {
+    text-align: center;
+    justify-content: center;
+}
+
+section#description table thead {
+    background-color: rgb(61, 145, 255);
+}
+
+section#description table thead th {
+    color: white;
+}
+
+section#description table tbody tr td {
+    padding: 10px;
+}
+
+section#description table tbody tr:first-child, 
+section#description table tbody tr:last-child {
+    background-color: rgb(145, 193, 255);
 }
