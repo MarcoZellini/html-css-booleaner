@@ -9,6 +9,7 @@ header {
     background-image: url("../img/pattern.png");
     background-color: rgb(61, 145, 255);
     background-position: 55% 20%;
+    /* background-size: 50%; */
 }
 
 header > img { 
