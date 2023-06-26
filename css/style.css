@@ -10,7 +10,6 @@ header {
     background-image: url("../img/pattern.png");
     background-color: rgb(61, 145, 255);
     background-position: 55% 20%;
-    padding: 10px;
 }
 
 header > img { 
@@ -19,9 +18,6 @@ header > img {
     height: 50%;
 }
 
-main {
-    padding: 10px;
-}
 
 section#title {
     padding-top: 10px;
@@ -31,7 +27,7 @@ section#title h1 {
     font-size: 36px;
 }
 
-section#title h3, section#title h4 {
+section#title h3, section#title h4, footer p {
     color: gray;
 }
 
@@ -88,3 +84,25 @@ section#description table tbody tr:first-child,
 section#description table tbody tr:last-child {
     background-color: rgb(145, 193, 255);
 }
+
+header, main, footer {
+    padding: 10px;
+}
+
+
+footer .video {
+    width: 200px;
+}
+
+footer .video img {
+    width: 100%;
+    margin: 10px;
+}
+
+footer .video p {
+    position: absolute;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
