@@ -47,11 +47,7 @@ section#images p {
     font-size: 10px;
 }
 
-section#description {
-    margin-top: 20px;
-}
-
-section#description p, section#description ul, section#description table {
+section#description p, section#description table {
     margin-top: 20px;
 }
 
